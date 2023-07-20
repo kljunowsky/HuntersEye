@@ -2,7 +2,7 @@
 
 <!-- ![WAFFLE](images/waffle_transparent.svg) -->
 <p align="center">
-    <img src="images/HunterEyes.svg" height="50%" width="50%" Setfill=None>
+    <img src="HunterEyes.svg" height="50%" width="50%" Setfill=None>
 </p>
 
 <h1 align="center">
