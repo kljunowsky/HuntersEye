@@ -76,7 +76,7 @@ Parameter | Description | Type
 
 ```
 timeout 24h python3 HuntersEye.py -tld io -o output.json
-cat output.json|jq -r '.domain'|dsieve -f 3|awk -F '.' '{print $1}'|sort -u |tee subdomain_bruteforce.txt
+cat output.json |jq -r '.domain' | dsieve -f 3 | awk -F '.' '{print $1}' | sort -u | tee subdomain_bruteforce.txt
 ```
 
 [Dsieve](https://github.com/trickest/dsieve) from [Trickest](https://github.com/trickest/)
@@ -85,7 +85,7 @@ cat output.json|jq -r '.domain'|dsieve -f 3|awk -F '.' '{print $1}'|sort -u |tee
 
 ```
 python3 HuntersEye.py -d target.tld -o output.json
-cat output.json| jq -r '.domain' | httpx -tech-detect -status-code -title -web-server -ip -cdn -asn -o httpx_output.txt
+cat output.json | jq -r '.domain' | httpx -tech-detect -status-code -title -web-server -ip -cdn -asn -o httpx_output.txt
 ``` 
 [httpx](https://github.com/projectdiscovery/httpx) from [ProjectDiscovery](https://github.com/projectdiscovery)
 
@@ -93,7 +93,7 @@ cat output.json| jq -r '.domain' | httpx -tech-detect -status-code -title -web-s
 ### Vulnerability Scanning
 ```
 python3 HuntersEye.py -d target.tld -o output.json
-cat output.json| jq -r '.domain' |nuclei -o nuclei_output
+cat output.json | jq -r '.domain' | nuclei -o nuclei_output
 ```
 [nuclei](https://github.com/projectdiscovery/nuclei) from [ProjectDiscovery](https://github.com/projectdiscovery)
 
@@ -101,7 +101,7 @@ cat output.json| jq -r '.domain' |nuclei -o nuclei_output
 ### Port Scanning
 ```
 python3 HuntersEye.py -d target.tld -o output.json
-cat output.json| jq -r '.domain' | naabu -tp 10000 -o naabu_output.txt
+cat output.json | jq -r '.domain' | naabu -tp 10000 -o naabu_output.txt
 ```
 [naabu](https://github.com/projectdiscovery/naabu) from [ProjectDiscovery](https://github.com/projectdiscovery)
 
