@@ -1,13 +1,12 @@
-# Hunters Eye 🧿
+<h1 align="center">
+Hunters Eye 🧿
+</h1>
 
-<!-- ![WAFFLE](images/waffle_transparent.svg) -->
 <p align="center">
     <img src="HunterEyes.svg" height="50%" width="50%" Setfill=None>
 </p>
 
-<h1 align="center">
-Hunters Eye 🧿
-</h1>
+
 <p align="center">
 HuntersEye is designed for Bug Bounty Hunters, and Security Researchers to monitor new subdomains and certificates for specified domains. The primary goal is to streamline and expedite the process of monitoring newly registered subdomains and SSL certificates related to specified target domains. The rapid identification and penetration of new subdomains a is crucial for bug bounty hunting.
 </p>
