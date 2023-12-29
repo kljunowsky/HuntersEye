@@ -110,7 +110,6 @@ cat output.json | jq -r '.domain' | naabu -tp 10000 -o naabu_output.txt
 
 [LinkedIn - Milan Jovic](https://www.linkedin.com/in/milan-jovic-sec/)
 
-[Shift Security Consulting - Linkedin](https://www.linkedin.com/company/shift-security-consulting)
 
 [Shift Security Consulting - Secure Your Digital Future](https://shiftsecurityconsulting.com)
 
